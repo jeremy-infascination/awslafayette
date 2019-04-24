@@ -11,6 +11,18 @@ nav .brand-logo {
   color: #444;
 }
 
+#subtitle {
+  text-shadow: 3px 8px 5px black;
+}
+
+img {
+  opacity: 0.75 !important;
+}
+
+#cloud:hover {
+  opacity: 1 !important; 
+}
+
 p {
   line-height: 2rem;
 }
@@ -23,7 +35,8 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color:#76ddfe;
+  box-shadow: 2px 2px 15px 9px #000000aa;
 }
   .parallax-container .section {
     width: 100%;

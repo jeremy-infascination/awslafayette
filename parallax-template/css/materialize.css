@@ -980,7 +980,7 @@
 }
 
 .teal {
-  background-color: #009688 !important;
+  background-color: #76ddfe !important;
 }
 
 .teal-text {
@@ -1016,11 +1016,12 @@
 }
 
 .teal-text.text-lighten-2 {
-  color: #4db6ac !important;
+  color: #76ddfe !important;
 }
 
 .teal.lighten-1 {
-  background-color: #26a69a !important;
+  background-color: #76ddfe !important;
+  box-shadow: 0px 0px 4px 1px black;
 }
 
 .teal-text.text-lighten-1 {
@@ -1880,7 +1881,7 @@
 }
 
 .brown-text {
-  color: #795548 !important;
+  color: #5a5a5a !important;
 }
 
 .brown.lighten-5 {
@@ -2943,8 +2944,9 @@ ul.staggered-list li {
 
 .page-footer {
   padding-top: 20px;
-  color: #fff;
-  background-color: #ee6e73;
+  color: #76ddfe;
+  background-color: #76ddfe;
+  box-shadow: 2px 2px 15px 9px #000000aa;
 }
 
 .page-footer .footer-copyright {
@@ -2963,8 +2965,8 @@ ul.staggered-list li {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 10px 0px;
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
+  color: #76ddfe;
+  background-color: #76ddfe;
 }
 
 table, th, td {
@@ -4523,7 +4525,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h1 {
   font-size: 4.2rem;
   line-height: 110%;
-  margin: 2.8rem 0 1.68rem 0;
+  margin: 1.2rem 0 1.68rem 0;
+  text-shadow: 2px 6px 3px black;
 }
 
 h2 {
@@ -4546,8 +4549,10 @@ h4 {
 
 h5 {
   font-size: 1.64rem;
+  
   line-height: 110%;
-  margin: 1.0933333333rem 0 0.656rem 0;
+  margin: -0.8933333333rem 0 0.656rem 0;
+  
 }
 
 h6 {
@@ -5256,6 +5261,7 @@ small {
   -webkit-transition: background-color .2s ease-out;
   transition: background-color .2s ease-out;
   cursor: pointer;
+  margin-top: 5rem;
 }
 
 .btn:hover, .btn-large:hover, .btn-small:hover {
@@ -8477,10 +8483,19 @@ input[type=range]::-ms-thumb {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8533,10 +8548,19 @@ input[type=range]::-ms-thumb {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
   z-index: -1;
 }
 
