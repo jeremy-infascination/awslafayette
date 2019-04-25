@@ -3426,8 +3426,11 @@ table span.badge {
   -webkit-font-feature-settings: 'liga';
      -moz-font-feature-settings: 'liga';
           font-feature-settings: 'liga';
+          transition: all .5s ease-in-out;
 }
-
+.material-icons:hover {
+  transform: scale(1.5);
+}
 .container {
   margin: 0 auto;
   max-width: 1280px;
